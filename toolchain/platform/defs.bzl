@@ -32,6 +32,7 @@ def declare_platform(gocpu, zigcpu, bzlos, os, suffix = "", extra_constraints = 
     constraint_values = [
         "@platforms//os:{}".format(bzlos),
         "@platforms//cpu:{}".format(zigcpu),
+        "@zig_sdk//platform:zig_cc_enabled",
     ] + extra_constraints
 
     native.platform(
