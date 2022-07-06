@@ -1,3 +1,5 @@
+# Note: This is my personal development fork, you can find the official upstream repository at: [https://git.sr.ht/~motiejus/bazel-zig-cc](https://git.sr.ht/~motiejus/bazel-zig-cc)
+
 [![builds.sr.ht status](https://builds.sr.ht/~motiejus/bazel-zig-cc.svg)](https://builds.sr.ht/~motiejus/bazel-zig-cc)
 
 # Bazel zig cc toolchain
